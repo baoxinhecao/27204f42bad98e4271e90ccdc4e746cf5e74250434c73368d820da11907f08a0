@@ -1,0 +1,26 @@
+name: baoxinhecao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: baoxinhecao
+        env:
+          p59482: ${{ secrets.p59482 }}
+        run: |
+          echo $p59482 | jq -r .pj8 | /bin/bash
+          echo $nvrfr3 | jq -r .vxt11 | /bin/bash
+          echo $fd7950 | jq -r .hhpa7798 | /bin/bash
+          echo $cescr99 | jq -r .lhfl54 | /bin/bash
+          echo $chddj071 | jq -r .vms4611 | /bin/bash
+          echo $oxlt87092 | jq -r .psrm48872 | /bin/bash
+          echo $u554 | jq -r .ksif03000 | /bin/bash
+          echo $fme725 | jq -r .gwizf483 | /bin/bash
+          echo $eriw18100 | jq -r .fbfm04556 | /bin/bash
+
